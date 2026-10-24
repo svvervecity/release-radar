@@ -1,0 +1,72 @@
+name: Update Release Radar
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: '45 10,11 * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: release-radar-pages
+  cancel-in-progress: false
+jobs:
+  update-and-publish:
+    if: github.event_name != 'schedule' || (github.event.schedule == '45 10,11 * * *')
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check Eastern scheduled time
+        id: timing
+        shell: bash
+        run: |
+          if [[ "${{ github.event_name }}" == "schedule" ]]; then
+            HOUR=$(TZ=America/Toronto date +%H)
+            if [[ "$HOUR" != "06" ]]; then
+              echo "run=false" >> "$GITHUB_OUTPUT"
+              exit 0
+            fi
+          fi
+          echo "run=true" >> "$GITHUB_OUTPUT"
+      - uses: actions/setup-python@v5
+        if: steps.timing.outputs.run == 'true'
+        with:
+          python-version: '3.12'
+      - name: Scan release catalog and regenerate HTML
+        if: steps.timing.outputs.run == 'true'
+        env:
+          MUSICBRAINZ_CONTACT: ${{ secrets.MUSICBRAINZ_CONTACT }}
+        run: |
+          python update_radar.py
+          python render_page.py
+      - name: Commit updated data and page
+        if: steps.timing.outputs.run == 'true'
+        run: |
+          git config user.name 'release-radar-bot'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add releases.json index.html radar.html
+          if ! git diff --cached --quiet; then
+            git commit -m "Update release radar $(date -u +%F)"
+            git push
+          fi
+      - uses: actions/configure-pages@v5
+        if: steps.timing.outputs.run == 'true'
+      - name: Prepare site-only deployment artifact
+        if: steps.timing.outputs.run == 'true'
+        run: |
+          mkdir -p _site
+          cp index.html releases.json _site/
+      - uses: actions/upload-pages-artifact@v3
+        if: steps.timing.outputs.run == 'true'
+        with:
+          path: './_site'
+      - name: Publish to GitHub Pages
+        if: steps.timing.outputs.run == 'true'
+        id: deployment
+        uses: actions/deploy-pages@v4
