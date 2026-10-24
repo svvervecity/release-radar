@@ -1,14 +1,62 @@
 {
   "metadata": {
-    "updated_at": "2026-10-24T15:45:00-04:00",
+    "updated_at": "2026-10-24T20:51:57+00:00",
     "week_start": "2026-10-19",
     "week_end": "2026-10-25",
     "artist_watchlist": 10304,
     "listened_or_rated": 7776,
-    "source": "Verified published release roundups, matched against Oct 24 watchlist",
-    "coverage": "Curated source matching only; not an exhaustive check of 10,304 artist discographies.",
+    "source": "Editorially verified week-of-Oct-23 seed + rolling MusicBrainz release-group catalog scan",
+    "coverage": "Scanned 0/41 date windows; source catalog is not exhaustive. Missing or delayed metadata, obscure releases and some reissues may be missed.",
     "scan_complete": false,
-    "automated": false,
+    "automated": true,
+    "queried_days": 41,
+    "api_requests": 241,
+    "records_scanned": 20000,
+    "catalog_matches": 0,
+    "failed_days": [
+      "2026-10-19",
+      "2026-10-20",
+      "2026-10-21",
+      "2026-10-22",
+      "2026-10-23",
+      "2026-10-24",
+      "2026-10-25",
+      "2026-10-26",
+      "2026-10-27",
+      "2026-10-28",
+      "2026-10-29",
+      "2026-10-30",
+      "2026-10-31",
+      "2026-11-01",
+      "2026-11-02",
+      "2026-11-03",
+      "2026-11-04",
+      "2026-11-05",
+      "2026-11-06",
+      "2026-11-07",
+      "2026-11-08",
+      "2026-11-09",
+      "2026-11-10",
+      "2026-11-11",
+      "2026-11-12",
+      "2026-11-13",
+      "2026-11-14",
+      "2026-11-15",
+      "2026-11-16",
+      "2026-11-17",
+      "2026-11-18",
+      "2026-11-19",
+      "2026-11-20",
+      "2026-11-21",
+      "2026-11-22",
+      "2026-11-23",
+      "2026-11-24",
+      "2026-11-25",
+      "2026-11-26",
+      "2026-11-27",
+      "2026-11-28"
+    ],
+    "truncated_days": [],
     "source_links": [
       {
         "name": "b",
@@ -34,16 +82,91 @@
   },
   "releases": [
     {
-      "id": "seed-8a067f667c091a",
-      "artist": "Earthbong",
-      "title": "Salutations to the Cultivators",
+      "id": "seed-50ca12a4d87420",
+      "artist": "One Step Closer",
+      "title": "Blue Hour / Was It Ever Enough?",
+      "type": "Single",
+      "date": "2026-10-23",
+      "status": "released",
+      "tier": 1,
+      "plays": 1106,
+      "ratings": 4,
+      "average_rating": 86.5,
+      "source": "Curated release roundup",
+      "source_url": "https://boolintunes.com/news/new-music-friday-october-23rd-2026/",
+      "sources": [
+        {
+          "name": "Boolin Tunes",
+          "url": "https://boolintunes.com/news/new-music-friday-october-23rd-2026/"
+        }
+      ],
+      "match": "Watchlist name",
+      "mbid": "",
+      "first_seen": "2026-10-24",
+      "notes": "Listed in the Oct 23 New Music Friday roundup; exact release day may vary.",
+      "flag": ""
+    },
+    {
+      "id": "seed-480dbce2a8c8ca",
+      "artist": "Northlane",
+      "title": "Deathwish",
+      "type": "Single",
+      "date": "2026-10-23",
+      "status": "released",
+      "tier": 1,
+      "plays": 1094,
+      "ratings": 7,
+      "average_rating": 49.1,
+      "source": "Curated release roundup",
+      "source_url": "https://boolintunes.com/news/new-music-friday-october-23rd-2026/",
+      "sources": [
+        {
+          "name": "Boolin Tunes",
+          "url": "https://boolintunes.com/news/new-music-friday-october-23rd-2026/"
+        }
+      ],
+      "match": "Watchlist name",
+      "mbid": "",
+      "first_seen": "2026-10-24",
+      "notes": "Listed in the Oct 23 New Music Friday roundup; exact release day may vary.",
+      "flag": ""
+    },
+    {
+      "id": "seed-e84ec731b1c776",
+      "artist": "Suicide Silence",
+      "title": "Reminders of Hell",
+      "type": "Single",
+      "date": "2026-10-23",
+      "status": "released",
+      "tier": 1,
+      "plays": 944,
+      "ratings": 7,
+      "average_rating": 68.7,
+      "source": "Curated release roundup",
+      "source_url": "https://boolintunes.com/news/new-music-friday-october-23rd-2026/",
+      "sources": [
+        {
+          "name": "Boolin Tunes",
+          "url": "https://boolintunes.com/news/new-music-friday-october-23rd-2026/"
+        }
+      ],
+      "match": "Watchlist name",
+      "mbid": "",
+      "first_seen": "2026-10-24",
+      "notes": "Listed in the Oct 23 New Music Friday roundup; exact release day may vary.",
+      "flag": ""
+    },
+    {
+      "id": "seed-7a0334a0095e41",
+      "artist": "Wolves in the Throne Room",
+      "title": "Estuary",
       "type": "Album",
       "date": "2026-10-23",
       "status": "released",
-      "tier": 3,
-      "plays": 0,
-      "ratings": 0,
-      "average_rating": null,
+      "tier": 1,
+      "plays": 491,
+      "ratings": 10,
+      "average_rating": 79.8,
       "source": "Curated release roundup",
       "source_url": "https://lambgoat.com/albums/releases/",
       "sources": [
@@ -59,28 +182,78 @@
       "flag": ""
     },
     {
-      "id": "seed-e04691065ed614",
-      "artist": "Mental Cruelty",
-      "title": "Echoes of a Forlorn Land",
+      "id": "seed-e1a9669d6f024e",
+      "artist": "Obituary",
+      "title": "Darkest Day (2026 Remaster)",
       "type": "Album",
       "date": "2026-10-23",
       "status": "released",
-      "tier": 2,
-      "plays": 50,
-      "ratings": 4,
-      "average_rating": 55.0,
+      "tier": 1,
+      "plays": 314,
+      "ratings": 11,
+      "average_rating": 75.9,
       "source": "Curated release roundup",
-      "source_url": "https://lambgoat.com/albums/releases/",
+      "source_url": "https://boolintunes.com/news/new-music-friday-october-23rd-2026/",
       "sources": [
         {
-          "name": "Lambgoat",
-          "url": "https://lambgoat.com/albums/releases/"
+          "name": "Boolin Tunes",
+          "url": "https://boolintunes.com/news/new-music-friday-october-23rd-2026/"
         }
       ],
       "match": "Watchlist name",
       "mbid": "",
       "first_seen": "2026-10-24",
       "notes": "",
+      "flag": "reissue"
+    },
+    {
+      "id": "seed-99cddd31fa35f8",
+      "artist": "Lifesick",
+      "title": "All Eyes on Me",
+      "type": "Single",
+      "date": "2026-10-23",
+      "status": "released",
+      "tier": 1,
+      "plays": 298,
+      "ratings": 5,
+      "average_rating": 73.4,
+      "source": "Curated release roundup",
+      "source_url": "https://boolintunes.com/news/new-music-friday-october-23rd-2026/",
+      "sources": [
+        {
+          "name": "Boolin Tunes",
+          "url": "https://boolintunes.com/news/new-music-friday-october-23rd-2026/"
+        }
+      ],
+      "match": "Watchlist name",
+      "mbid": "",
+      "first_seen": "2026-10-24",
+      "notes": "Listed in the Oct 23 New Music Friday roundup; exact release day may vary.",
+      "flag": ""
+    },
+    {
+      "id": "seed-80caac75ad21c7",
+      "artist": "Oceans Ate Alaska",
+      "title": "Bring You Back",
+      "type": "Single",
+      "date": "2026-10-23",
+      "status": "released",
+      "tier": 1,
+      "plays": 287,
+      "ratings": 4,
+      "average_rating": 64.5,
+      "source": "Curated release roundup",
+      "source_url": "https://boolintunes.com/news/new-music-friday-october-23rd-2026/",
+      "sources": [
+        {
+          "name": "Boolin Tunes",
+          "url": "https://boolintunes.com/news/new-music-friday-october-23rd-2026/"
+        }
+      ],
+      "match": "Watchlist name",
+      "mbid": "",
+      "first_seen": "2026-10-24",
+      "notes": "Listed in the Oct 23 New Music Friday roundup; exact release day may vary.",
       "flag": ""
     },
     {
@@ -109,29 +282,29 @@
       "flag": ""
     },
     {
-      "id": "seed-7a0334a0095e41",
-      "artist": "Wolves in the Throne Room",
-      "title": "Estuary",
+      "id": "seed-87858e2055d0a4",
+      "artist": "My Chemical Romance",
+      "title": "The Black Parade (20th Anniversary)",
       "type": "Album",
       "date": "2026-10-23",
       "status": "released",
       "tier": 1,
-      "plays": 491,
-      "ratings": 10,
-      "average_rating": 79.8,
+      "plays": 154,
+      "ratings": 0,
+      "average_rating": null,
       "source": "Curated release roundup",
-      "source_url": "https://lambgoat.com/albums/releases/",
+      "source_url": "https://loudwire.com/2026-hard-rock-metal-album-release-calendar/",
       "sources": [
         {
-          "name": "Lambgoat",
-          "url": "https://lambgoat.com/albums/releases/"
+          "name": "Loudwire",
+          "url": "https://loudwire.com/2026-hard-rock-metal-album-release-calendar/"
         }
       ],
       "match": "Watchlist name",
       "mbid": "",
       "first_seen": "2026-10-24",
       "notes": "",
-      "flag": ""
+      "flag": "reissue"
     },
     {
       "id": "seed-68c455a6f3e366",
@@ -184,289 +357,14 @@
       "flag": ""
     },
     {
-      "id": "seed-962fbb2bb78a9c",
-      "artist": "Swervedriver",
-      "title": "Raise: Demos",
-      "type": "Album",
-      "date": "2026-10-23",
-      "status": "released",
-      "tier": 2,
-      "plays": 6,
-      "ratings": 1,
-      "average_rating": 30.0,
-      "source": "Curated release roundup",
-      "source_url": "https://loudwire.com/2026-hard-rock-metal-album-release-calendar/",
-      "sources": [
-        {
-          "name": "Loudwire",
-          "url": "https://loudwire.com/2026-hard-rock-metal-album-release-calendar/"
-        }
-      ],
-      "match": "Watchlist name",
-      "mbid": "",
-      "first_seen": "2026-10-24",
-      "notes": "",
-      "flag": "reissue"
-    },
-    {
-      "id": "seed-87858e2055d0a4",
-      "artist": "My Chemical Romance",
-      "title": "The Black Parade (20th Anniversary)",
-      "type": "Album",
-      "date": "2026-10-23",
-      "status": "released",
-      "tier": 1,
-      "plays": 154,
-      "ratings": 0,
-      "average_rating": null,
-      "source": "Curated release roundup",
-      "source_url": "https://loudwire.com/2026-hard-rock-metal-album-release-calendar/",
-      "sources": [
-        {
-          "name": "Loudwire",
-          "url": "https://loudwire.com/2026-hard-rock-metal-album-release-calendar/"
-        }
-      ],
-      "match": "Watchlist name",
-      "mbid": "",
-      "first_seen": "2026-10-24",
-      "notes": "",
-      "flag": "reissue"
-    },
-    {
-      "id": "seed-e1a9669d6f024e",
-      "artist": "Obituary",
-      "title": "Darkest Day (2026 Remaster)",
-      "type": "Album",
-      "date": "2026-10-23",
-      "status": "released",
-      "tier": 1,
-      "plays": 314,
-      "ratings": 11,
-      "average_rating": 75.9,
-      "source": "Curated release roundup",
-      "source_url": "https://boolintunes.com/news/new-music-friday-october-23rd-2026/",
-      "sources": [
-        {
-          "name": "Boolin Tunes",
-          "url": "https://boolintunes.com/news/new-music-friday-october-23rd-2026/"
-        }
-      ],
-      "match": "Watchlist name",
-      "mbid": "",
-      "first_seen": "2026-10-24",
-      "notes": "",
-      "flag": "reissue"
-    },
-    {
-      "id": "seed-adc08b6609d30e",
-      "artist": "Get The Shot",
-      "title": "Crucifixion Depiction",
-      "type": "EP",
-      "date": "2026-10-23",
-      "status": "released",
-      "tier": 2,
-      "plays": 23,
-      "ratings": 1,
-      "average_rating": 40.0,
-      "source": "Curated release roundup",
-      "source_url": "https://boolintunes.com/news/new-music-friday-october-23rd-2026/",
-      "sources": [
-        {
-          "name": "Boolin Tunes",
-          "url": "https://boolintunes.com/news/new-music-friday-october-23rd-2026/"
-        }
-      ],
-      "match": "Watchlist name",
-      "mbid": "",
-      "first_seen": "2026-10-24",
-      "notes": "",
-      "flag": ""
-    },
-    {
-      "id": "seed-8ad94714963e44",
-      "artist": "BIG ASS TRUCK I.E.",
-      "title": "Found on Road Dead",
-      "type": "EP",
-      "date": "2026-10-23",
-      "status": "released",
-      "tier": 2,
-      "plays": 6,
-      "ratings": 2,
-      "average_rating": 51.0,
-      "source": "Curated release roundup",
-      "source_url": "https://loudwire.com/2026-hard-rock-metal-album-release-calendar/",
-      "sources": [
-        {
-          "name": "Loudwire",
-          "url": "https://loudwire.com/2026-hard-rock-metal-album-release-calendar/"
-        }
-      ],
-      "match": "Watchlist name",
-      "mbid": "",
-      "first_seen": "2026-10-24",
-      "notes": "",
-      "flag": ""
-    },
-    {
-      "id": "seed-3353b250dbce8c",
-      "artist": "Embryectomy",
-      "title": "Vitrolic Baptism",
-      "type": "Album",
-      "date": "2026-10-23",
-      "status": "released",
-      "tier": 3,
-      "plays": 1,
-      "ratings": 0,
-      "average_rating": null,
-      "source": "Curated release roundup",
-      "source_url": "https://boolintunes.com/news/new-music-friday-october-23rd-2026/",
-      "sources": [
-        {
-          "name": "Boolin Tunes",
-          "url": "https://boolintunes.com/news/new-music-friday-october-23rd-2026/"
-        }
-      ],
-      "match": "Watchlist name",
-      "mbid": "",
-      "first_seen": "2026-10-24",
-      "notes": "",
-      "flag": ""
-    },
-    {
-      "id": "seed-ae8bbdcf833b95",
-      "artist": "Offer No Pity",
-      "title": "Offer No Pity",
-      "type": "EP",
-      "date": "2026-10-23",
-      "status": "released",
-      "tier": 2,
-      "plays": 5,
-      "ratings": 1,
-      "average_rating": 85.0,
-      "source": "Curated release roundup",
-      "source_url": "https://boolintunes.com/news/new-music-friday-october-23rd-2026/",
-      "sources": [
-        {
-          "name": "Boolin Tunes",
-          "url": "https://boolintunes.com/news/new-music-friday-october-23rd-2026/"
-        }
-      ],
-      "match": "Watchlist name",
-      "mbid": "",
-      "first_seen": "2026-10-24",
-      "notes": "",
-      "flag": ""
-    },
-    {
-      "id": "seed-3143e72404523c",
-      "artist": "If It Rains",
-      "title": "All We've Got",
-      "type": "EP",
-      "date": "2026-10-23",
-      "status": "released",
-      "tier": 2,
-      "plays": 2,
-      "ratings": 0,
-      "average_rating": null,
-      "source": "Curated release roundup",
-      "source_url": "https://boolintunes.com/news/new-music-friday-october-23rd-2026/",
-      "sources": [
-        {
-          "name": "Boolin Tunes",
-          "url": "https://boolintunes.com/news/new-music-friday-october-23rd-2026/"
-        }
-      ],
-      "match": "Watchlist name",
-      "mbid": "",
-      "first_seen": "2026-10-24",
-      "notes": "",
-      "flag": ""
-    },
-    {
-      "id": "seed-e86d69fde99344",
-      "artist": "Skurge",
-      "title": "Peace Through Absolution",
-      "type": "EP",
-      "date": "2026-10-23",
-      "status": "released",
-      "tier": 2,
-      "plays": 4,
-      "ratings": 1,
-      "average_rating": 70.0,
-      "source": "Curated release roundup",
-      "source_url": "https://boolintunes.com/news/new-music-friday-october-23rd-2026/",
-      "sources": [
-        {
-          "name": "Boolin Tunes",
-          "url": "https://boolintunes.com/news/new-music-friday-october-23rd-2026/"
-        }
-      ],
-      "match": "Watchlist name",
-      "mbid": "",
-      "first_seen": "2026-10-24",
-      "notes": "",
-      "flag": ""
-    },
-    {
-      "id": "seed-7fc98bb4022be4",
-      "artist": "Dis Fig",
-      "title": "What to Make of These Mortal Hands",
-      "type": "Album",
-      "date": "2026-10-23",
-      "status": "released",
-      "tier": 3,
-      "plays": 0,
-      "ratings": 0,
-      "average_rating": null,
-      "source": "Curated release roundup",
-      "source_url": "https://boolintunes.com/news/new-music-friday-october-23rd-2026/",
-      "sources": [
-        {
-          "name": "Boolin Tunes",
-          "url": "https://boolintunes.com/news/new-music-friday-october-23rd-2026/"
-        }
-      ],
-      "match": "Watchlist name",
-      "mbid": "",
-      "first_seen": "2026-10-24",
-      "notes": "",
-      "flag": ""
-    },
-    {
-      "id": "seed-84908997654c67",
-      "artist": "Purity Ring",
-      "title": "transmutations",
-      "type": "Album",
-      "date": "2026-10-23",
-      "status": "released",
-      "tier": 2,
-      "plays": 2,
-      "ratings": 0,
-      "average_rating": null,
-      "source": "Curated release roundup",
-      "source_url": "https://boolintunes.com/news/new-music-friday-october-23rd-2026/",
-      "sources": [
-        {
-          "name": "Boolin Tunes",
-          "url": "https://boolintunes.com/news/new-music-friday-october-23rd-2026/"
-        }
-      ],
-      "match": "Watchlist name",
-      "mbid": "",
-      "first_seen": "2026-10-24",
-      "notes": "",
-      "flag": ""
-    },
-    {
-      "id": "seed-252315e7ae4cc3",
-      "artist": "Thus Spoke Zarathustra",
-      "title": "In My Dreams…",
+      "id": "seed-cd3b0268a3fb3f",
+      "artist": "Headbussa",
+      "title": "Manhunt",
       "type": "Single",
       "date": "2026-10-23",
       "status": "released",
-      "tier": 2,
-      "plays": 12,
+      "tier": 1,
+      "plays": 39,
       "ratings": 0,
       "average_rating": null,
       "source": "Curated release roundup",
@@ -484,103 +382,28 @@
       "flag": ""
     },
     {
-      "id": "seed-2132b5e3656ee8",
-      "artist": "Atena",
-      "title": "Balkan Express (feat. CABAL)",
-      "type": "Single",
+      "id": "seed-e04691065ed614",
+      "artist": "Mental Cruelty",
+      "title": "Echoes of a Forlorn Land",
+      "type": "Album",
       "date": "2026-10-23",
       "status": "released",
-      "tier": 3,
-      "plays": 0,
-      "ratings": 0,
-      "average_rating": null,
-      "source": "Curated release roundup",
-      "source_url": "https://boolintunes.com/news/new-music-friday-october-23rd-2026/",
-      "sources": [
-        {
-          "name": "Boolin Tunes",
-          "url": "https://boolintunes.com/news/new-music-friday-october-23rd-2026/"
-        }
-      ],
-      "match": "Watchlist name",
-      "mbid": "",
-      "first_seen": "2026-10-24",
-      "notes": "Listed in the Oct 23 New Music Friday roundup; exact release day may vary.",
-      "flag": ""
-    },
-    {
-      "id": "seed-80caac75ad21c7",
-      "artist": "Oceans Ate Alaska",
-      "title": "Bring You Back",
-      "type": "Single",
-      "date": "2026-10-23",
-      "status": "released",
-      "tier": 1,
-      "plays": 287,
+      "tier": 2,
+      "plays": 50,
       "ratings": 4,
-      "average_rating": 64.5,
+      "average_rating": 55.0,
       "source": "Curated release roundup",
-      "source_url": "https://boolintunes.com/news/new-music-friday-october-23rd-2026/",
+      "source_url": "https://lambgoat.com/albums/releases/",
       "sources": [
         {
-          "name": "Boolin Tunes",
-          "url": "https://boolintunes.com/news/new-music-friday-october-23rd-2026/"
+          "name": "Lambgoat",
+          "url": "https://lambgoat.com/albums/releases/"
         }
       ],
       "match": "Watchlist name",
       "mbid": "",
       "first_seen": "2026-10-24",
-      "notes": "Listed in the Oct 23 New Music Friday roundup; exact release day may vary.",
-      "flag": ""
-    },
-    {
-      "id": "seed-44822e9c3ae5d1",
-      "artist": "Shellgame",
-      "title": "Beat on My Brain (Til I Go Insane)",
-      "type": "Single",
-      "date": "2026-10-23",
-      "status": "released",
-      "tier": 2,
-      "plays": 3,
-      "ratings": 1,
-      "average_rating": 78.0,
-      "source": "Curated release roundup",
-      "source_url": "https://boolintunes.com/news/new-music-friday-october-23rd-2026/",
-      "sources": [
-        {
-          "name": "Boolin Tunes",
-          "url": "https://boolintunes.com/news/new-music-friday-october-23rd-2026/"
-        }
-      ],
-      "match": "Watchlist name",
-      "mbid": "",
-      "first_seen": "2026-10-24",
-      "notes": "Listed in the Oct 23 New Music Friday roundup; exact release day may vary.",
-      "flag": ""
-    },
-    {
-      "id": "seed-e84ec731b1c776",
-      "artist": "Suicide Silence",
-      "title": "Reminders of Hell",
-      "type": "Single",
-      "date": "2026-10-23",
-      "status": "released",
-      "tier": 1,
-      "plays": 944,
-      "ratings": 7,
-      "average_rating": 68.7,
-      "source": "Curated release roundup",
-      "source_url": "https://boolintunes.com/news/new-music-friday-october-23rd-2026/",
-      "sources": [
-        {
-          "name": "Boolin Tunes",
-          "url": "https://boolintunes.com/news/new-music-friday-october-23rd-2026/"
-        }
-      ],
-      "match": "Watchlist name",
-      "mbid": "",
-      "first_seen": "2026-10-24",
-      "notes": "Listed in the Oct 23 New Music Friday roundup; exact release day may vary.",
+      "notes": "",
       "flag": ""
     },
     {
@@ -609,166 +432,16 @@
       "flag": ""
     },
     {
-      "id": "seed-480dbce2a8c8ca",
-      "artist": "Northlane",
-      "title": "Deathwish",
-      "type": "Single",
-      "date": "2026-10-23",
-      "status": "released",
-      "tier": 1,
-      "plays": 1094,
-      "ratings": 7,
-      "average_rating": 49.1,
-      "source": "Curated release roundup",
-      "source_url": "https://boolintunes.com/news/new-music-friday-october-23rd-2026/",
-      "sources": [
-        {
-          "name": "Boolin Tunes",
-          "url": "https://boolintunes.com/news/new-music-friday-october-23rd-2026/"
-        }
-      ],
-      "match": "Watchlist name",
-      "mbid": "",
-      "first_seen": "2026-10-24",
-      "notes": "Listed in the Oct 23 New Music Friday roundup; exact release day may vary.",
-      "flag": ""
-    },
-    {
-      "id": "seed-a0ee5ad6b1051b",
-      "artist": "Hellripper",
-      "title": "If You Found This It's Probably Too Late",
-      "type": "Single",
+      "id": "seed-adc08b6609d30e",
+      "artist": "Get The Shot",
+      "title": "Crucifixion Depiction",
+      "type": "EP",
       "date": "2026-10-23",
       "status": "released",
       "tier": 2,
-      "plays": 17,
-      "ratings": 2,
-      "average_rating": 64.5,
-      "source": "Curated release roundup",
-      "source_url": "https://boolintunes.com/news/new-music-friday-october-23rd-2026/",
-      "sources": [
-        {
-          "name": "Boolin Tunes",
-          "url": "https://boolintunes.com/news/new-music-friday-october-23rd-2026/"
-        }
-      ],
-      "match": "Watchlist name",
-      "mbid": "",
-      "first_seen": "2026-10-24",
-      "notes": "Listed in the Oct 23 New Music Friday roundup; exact release day may vary.",
-      "flag": ""
-    },
-    {
-      "id": "seed-ec4edc2037ecb5",
-      "artist": "PEELINGFLESH",
-      "title": "Crackology",
-      "type": "Single",
-      "date": "2026-10-23",
-      "status": "released",
-      "tier": 3,
-      "plays": 9,
-      "ratings": 0,
-      "average_rating": null,
-      "source": "Curated release roundup",
-      "source_url": "https://boolintunes.com/news/new-music-friday-october-23rd-2026/",
-      "sources": [
-        {
-          "name": "Boolin Tunes",
-          "url": "https://boolintunes.com/news/new-music-friday-october-23rd-2026/"
-        }
-      ],
-      "match": "Watchlist name",
-      "mbid": "",
-      "first_seen": "2026-10-24",
-      "notes": "Listed in the Oct 23 New Music Friday roundup; exact release day may vary.",
-      "flag": ""
-    },
-    {
-      "id": "seed-99cddd31fa35f8",
-      "artist": "Lifesick",
-      "title": "All Eyes on Me",
-      "type": "Single",
-      "date": "2026-10-23",
-      "status": "released",
-      "tier": 1,
-      "plays": 298,
-      "ratings": 5,
-      "average_rating": 73.4,
-      "source": "Curated release roundup",
-      "source_url": "https://boolintunes.com/news/new-music-friday-october-23rd-2026/",
-      "sources": [
-        {
-          "name": "Boolin Tunes",
-          "url": "https://boolintunes.com/news/new-music-friday-october-23rd-2026/"
-        }
-      ],
-      "match": "Watchlist name",
-      "mbid": "",
-      "first_seen": "2026-10-24",
-      "notes": "Listed in the Oct 23 New Music Friday roundup; exact release day may vary.",
-      "flag": ""
-    },
-    {
-      "id": "seed-50ca12a4d87420",
-      "artist": "One Step Closer",
-      "title": "Blue Hour / Was It Ever Enough?",
-      "type": "Single",
-      "date": "2026-10-23",
-      "status": "released",
-      "tier": 1,
-      "plays": 1106,
-      "ratings": 4,
-      "average_rating": 86.5,
-      "source": "Curated release roundup",
-      "source_url": "https://boolintunes.com/news/new-music-friday-october-23rd-2026/",
-      "sources": [
-        {
-          "name": "Boolin Tunes",
-          "url": "https://boolintunes.com/news/new-music-friday-october-23rd-2026/"
-        }
-      ],
-      "match": "Watchlist name",
-      "mbid": "",
-      "first_seen": "2026-10-24",
-      "notes": "Listed in the Oct 23 New Music Friday roundup; exact release day may vary.",
-      "flag": ""
-    },
-    {
-      "id": "seed-cd3b0268a3fb3f",
-      "artist": "Headbussa",
-      "title": "Manhunt",
-      "type": "Single",
-      "date": "2026-10-23",
-      "status": "released",
-      "tier": 1,
-      "plays": 39,
-      "ratings": 0,
-      "average_rating": null,
-      "source": "Curated release roundup",
-      "source_url": "https://boolintunes.com/news/new-music-friday-october-23rd-2026/",
-      "sources": [
-        {
-          "name": "Boolin Tunes",
-          "url": "https://boolintunes.com/news/new-music-friday-october-23rd-2026/"
-        }
-      ],
-      "match": "Watchlist name",
-      "mbid": "",
-      "first_seen": "2026-10-24",
-      "notes": "Listed in the Oct 23 New Music Friday roundup; exact release day may vary.",
-      "flag": ""
-    },
-    {
-      "id": "seed-b2d82b604dc8d1",
-      "artist": "Normandie",
-      "title": "Mr America",
-      "type": "Single",
-      "date": "2026-10-23",
-      "status": "released",
-      "tier": 2,
-      "plays": 2,
+      "plays": 23,
       "ratings": 1,
-      "average_rating": 25.0,
+      "average_rating": 40.0,
       "source": "Curated release roundup",
       "source_url": "https://boolintunes.com/news/new-music-friday-october-23rd-2026/",
       "sources": [
@@ -780,18 +453,18 @@
       "match": "Watchlist name",
       "mbid": "",
       "first_seen": "2026-10-24",
-      "notes": "Listed in the Oct 23 New Music Friday roundup; exact release day may vary.",
+      "notes": "",
       "flag": ""
     },
     {
-      "id": "seed-9844f2c26105ac",
-      "artist": "Siamese",
-      "title": "alone",
+      "id": "seed-3388d0b460fc94",
+      "artist": "Suki Waterhouse",
+      "title": "Close My Eyes (feat. Lous and The Yakuza)",
       "type": "Single",
       "date": "2026-10-23",
       "status": "released",
       "tier": 2,
-      "plays": 15,
+      "plays": 21,
       "ratings": 0,
       "average_rating": null,
       "source": "Curated release roundup",
@@ -834,14 +507,39 @@
       "flag": ""
     },
     {
-      "id": "seed-c02e8b7a5e16db",
-      "artist": "Less Than Jake",
-      "title": "Overloaded",
+      "id": "seed-a0ee5ad6b1051b",
+      "artist": "Hellripper",
+      "title": "If You Found This It's Probably Too Late",
       "type": "Single",
       "date": "2026-10-23",
       "status": "released",
-      "tier": 3,
-      "plays": 0,
+      "tier": 2,
+      "plays": 17,
+      "ratings": 2,
+      "average_rating": 64.5,
+      "source": "Curated release roundup",
+      "source_url": "https://boolintunes.com/news/new-music-friday-october-23rd-2026/",
+      "sources": [
+        {
+          "name": "Boolin Tunes",
+          "url": "https://boolintunes.com/news/new-music-friday-october-23rd-2026/"
+        }
+      ],
+      "match": "Watchlist name",
+      "mbid": "",
+      "first_seen": "2026-10-24",
+      "notes": "Listed in the Oct 23 New Music Friday roundup; exact release day may vary.",
+      "flag": ""
+    },
+    {
+      "id": "seed-9844f2c26105ac",
+      "artist": "Siamese",
+      "title": "alone",
+      "type": "Single",
+      "date": "2026-10-23",
+      "status": "released",
+      "tier": 2,
+      "plays": 15,
       "ratings": 0,
       "average_rating": null,
       "source": "Curated release roundup",
@@ -884,63 +582,14 @@
       "flag": ""
     },
     {
-      "id": "seed-ef45e6f883fcf0",
-      "artist": "Prize Horse",
-      "title": "The Big Picture",
+      "id": "seed-252315e7ae4cc3",
+      "artist": "Thus Spoke Zarathustra",
+      "title": "In My Dreams…",
       "type": "Single",
       "date": "2026-10-23",
       "status": "released",
       "tier": 2,
-      "plays": 0,
-      "ratings": 0,
-      "average_rating": null,
-      "source": "Curated release roundup",
-      "source_url": "https://boolintunes.com/news/new-music-friday-october-23rd-2026/",
-      "sources": [
-        {          "name": "Boolin Tunes",
-          "url": "https://boolintunes.com/news/new-music-friday-october-23rd-2026/"
-        }
-      ],
-      "match": "Watchlist name",
-      "mbid": "",
-      "first_seen": "2026-10-24",
-      "notes": "Listed in the Oct 23 New Music Friday roundup; exact release day may vary.",
-      "flag": ""
-    },
-    {
-      "id": "seed-89a9fa3dfbaf01",
-      "artist": "Mareux",
-      "title": "Cadillac Casket",
-      "type": "Single",
-      "date": "2026-10-23",
-      "status": "released",
-      "tier": 3,
-      "plays": 0,
-      "ratings": 0,
-      "average_rating": null,
-      "source": "Curated release roundup",
-      "source_url": "https://boolintunes.com/news/new-music-friday-october-23rd-2026/",
-      "sources": [
-        {
-          "name": "Boolin Tunes",
-          "url": "https://boolintunes.com/news/new-music-friday-october-23rd-2026/"
-        }
-      ],
-      "match": "Watchlist name",
-      "mbid": "",
-      "first_seen": "2026-10-24",
-      "notes": "Listed in the Oct 23 New Music Friday roundup; exact release day may vary.",
-      "flag": ""
-    },
-    {
-      "id": "seed-3388d0b460fc94",
-      "artist": "Suki Waterhouse",
-      "title": "Close My Eyes (feat. Lous and The Yakuza)",
-      "type": "Single",
-      "date": "2026-10-23",
-      "status": "released",
-      "tier": 2,
-      "plays": 21,
+      "plays": 12,
       "ratings": 0,
       "average_rating": null,
       "source": "Curated release roundup",
@@ -983,6 +632,406 @@
       "flag": ""
     },
     {
+      "id": "seed-8ad94714963e44",
+      "artist": "BIG ASS TRUCK I.E.",
+      "title": "Found on Road Dead",
+      "type": "EP",
+      "date": "2026-10-23",
+      "status": "released",
+      "tier": 2,
+      "plays": 6,
+      "ratings": 2,
+      "average_rating": 51.0,
+      "source": "Curated release roundup",
+      "source_url": "https://loudwire.com/2026-hard-rock-metal-album-release-calendar/",
+      "sources": [
+        {
+          "name": "Loudwire",
+          "url": "https://loudwire.com/2026-hard-rock-metal-album-release-calendar/"
+        }
+      ],
+      "match": "Watchlist name",
+      "mbid": "",
+      "first_seen": "2026-10-24",
+      "notes": "",
+      "flag": ""
+    },
+    {
+      "id": "seed-962fbb2bb78a9c",
+      "artist": "Swervedriver",
+      "title": "Raise: Demos",
+      "type": "Album",
+      "date": "2026-10-23",
+      "status": "released",
+      "tier": 2,
+      "plays": 6,
+      "ratings": 1,
+      "average_rating": 30.0,
+      "source": "Curated release roundup",
+      "source_url": "https://loudwire.com/2026-hard-rock-metal-album-release-calendar/",
+      "sources": [
+        {
+          "name": "Loudwire",
+          "url": "https://loudwire.com/2026-hard-rock-metal-album-release-calendar/"
+        }
+      ],
+      "match": "Watchlist name",
+      "mbid": "",
+      "first_seen": "2026-10-24",
+      "notes": "",
+      "flag": "reissue"
+    },
+    {
+      "id": "seed-ae8bbdcf833b95",
+      "artist": "Offer No Pity",
+      "title": "Offer No Pity",
+      "type": "EP",
+      "date": "2026-10-23",
+      "status": "released",
+      "tier": 2,
+      "plays": 5,
+      "ratings": 1,
+      "average_rating": 85.0,
+      "source": "Curated release roundup",
+      "source_url": "https://boolintunes.com/news/new-music-friday-october-23rd-2026/",
+      "sources": [
+        {
+          "name": "Boolin Tunes",
+          "url": "https://boolintunes.com/news/new-music-friday-october-23rd-2026/"
+        }
+      ],
+      "match": "Watchlist name",
+      "mbid": "",
+      "first_seen": "2026-10-24",
+      "notes": "",
+      "flag": ""
+    },
+    {
+      "id": "seed-e86d69fde99344",
+      "artist": "Skurge",
+      "title": "Peace Through Absolution",
+      "type": "EP",
+      "date": "2026-10-23",
+      "status": "released",
+      "tier": 2,
+      "plays": 4,
+      "ratings": 1,
+      "average_rating": 70.0,
+      "source": "Curated release roundup",
+      "source_url": "https://boolintunes.com/news/new-music-friday-october-23rd-2026/",
+      "sources": [
+        {
+          "name": "Boolin Tunes",
+          "url": "https://boolintunes.com/news/new-music-friday-october-23rd-2026/"
+        }
+      ],
+      "match": "Watchlist name",
+      "mbid": "",
+      "first_seen": "2026-10-24",
+      "notes": "",
+      "flag": ""
+    },
+    {
+      "id": "seed-44822e9c3ae5d1",
+      "artist": "Shellgame",
+      "title": "Beat on My Brain (Til I Go Insane)",
+      "type": "Single",
+      "date": "2026-10-23",
+      "status": "released",
+      "tier": 2,
+      "plays": 3,
+      "ratings": 1,
+      "average_rating": 78.0,
+      "source": "Curated release roundup",
+      "source_url": "https://boolintunes.com/news/new-music-friday-october-23rd-2026/",
+      "sources": [
+        {
+          "name": "Boolin Tunes",
+          "url": "https://boolintunes.com/news/new-music-friday-october-23rd-2026/"
+        }
+      ],
+      "match": "Watchlist name",
+      "mbid": "",
+      "first_seen": "2026-10-24",
+      "notes": "Listed in the Oct 23 New Music Friday roundup; exact release day may vary.",
+      "flag": ""
+    },
+    {
+      "id": "seed-3143e72404523c",
+      "artist": "If It Rains",
+      "title": "All We've Got",
+      "type": "EP",
+      "date": "2026-10-23",
+      "status": "released",
+      "tier": 2,
+      "plays": 2,
+      "ratings": 0,
+      "average_rating": null,
+      "source": "Curated release roundup",
+      "source_url": "https://boolintunes.com/news/new-music-friday-october-23rd-2026/",
+      "sources": [
+        {
+          "name": "Boolin Tunes",
+          "url": "https://boolintunes.com/news/new-music-friday-october-23rd-2026/"
+        }
+      ],
+      "match": "Watchlist name",
+      "mbid": "",
+      "first_seen": "2026-10-24",
+      "notes": "",
+      "flag": ""
+    },
+    {
+      "id": "seed-b2d82b604dc8d1",
+      "artist": "Normandie",
+      "title": "Mr America",
+      "type": "Single",
+      "date": "2026-10-23",
+      "status": "released",
+      "tier": 2,
+      "plays": 2,
+      "ratings": 1,
+      "average_rating": 25.0,
+      "source": "Curated release roundup",
+      "source_url": "https://boolintunes.com/news/new-music-friday-october-23rd-2026/",
+      "sources": [
+        {
+          "name": "Boolin Tunes",
+          "url": "https://boolintunes.com/news/new-music-friday-october-23rd-2026/"
+        }
+      ],
+      "match": "Watchlist name",
+      "mbid": "",
+      "first_seen": "2026-10-24",
+      "notes": "Listed in the Oct 23 New Music Friday roundup; exact release day may vary.",
+      "flag": ""
+    },
+    {
+      "id": "seed-84908997654c67",
+      "artist": "Purity Ring",
+      "title": "transmutations",
+      "type": "Album",
+      "date": "2026-10-23",
+      "status": "released",
+      "tier": 2,
+      "plays": 2,
+      "ratings": 0,
+      "average_rating": null,
+      "source": "Curated release roundup",
+      "source_url": "https://boolintunes.com/news/new-music-friday-october-23rd-2026/",
+      "sources": [
+        {
+          "name": "Boolin Tunes",
+          "url": "https://boolintunes.com/news/new-music-friday-october-23rd-2026/"
+        }
+      ],
+      "match": "Watchlist name",
+      "mbid": "",
+      "first_seen": "2026-10-24",
+      "notes": "",
+      "flag": ""
+    },
+    {
+      "id": "seed-ef45e6f883fcf0",
+      "artist": "Prize Horse",
+      "title": "The Big Picture",
+      "type": "Single",
+      "date": "2026-10-23",
+      "status": "released",
+      "tier": 2,
+      "plays": 0,
+      "ratings": 0,
+      "average_rating": null,
+      "source": "Curated release roundup",
+      "source_url": "https://boolintunes.com/news/new-music-friday-october-23rd-2026/",
+      "sources": [
+        {
+          "name": "Boolin Tunes",
+          "url": "https://boolintunes.com/news/new-music-friday-october-23rd-2026/"
+        }
+      ],
+      "match": "Watchlist name",
+      "mbid": "",
+      "first_seen": "2026-10-24",
+      "notes": "Listed in the Oct 23 New Music Friday roundup; exact release day may vary.",
+      "flag": ""
+    },
+    {
+      "id": "seed-ec4edc2037ecb5",
+      "artist": "PEELINGFLESH",
+      "title": "Crackology",
+      "type": "Single",
+      "date": "2026-10-23",
+      "status": "released",
+      "tier": 3,
+      "plays": 9,
+      "ratings": 0,
+      "average_rating": null,
+      "source": "Curated release roundup",
+      "source_url": "https://boolintunes.com/news/new-music-friday-october-23rd-2026/",
+      "sources": [
+        {
+          "name": "Boolin Tunes",
+          "url": "https://boolintunes.com/news/new-music-friday-october-23rd-2026/"
+        }
+      ],
+      "match": "Watchlist name",
+      "mbid": "",
+      "first_seen": "2026-10-24",
+      "notes": "Listed in the Oct 23 New Music Friday roundup; exact release day may vary.",
+      "flag": ""
+    },
+    {
+      "id": "seed-3353b250dbce8c",
+      "artist": "Embryectomy",
+      "title": "Vitrolic Baptism",
+      "type": "Album",
+      "date": "2026-10-23",
+      "status": "released",
+      "tier": 3,
+      "plays": 1,
+      "ratings": 0,
+      "average_rating": null,
+      "source": "Curated release roundup",
+      "source_url": "https://boolintunes.com/news/new-music-friday-october-23rd-2026/",
+      "sources": [
+        {
+          "name": "Boolin Tunes",
+          "url": "https://boolintunes.com/news/new-music-friday-october-23rd-2026/"
+        }
+      ],
+      "match": "Watchlist name",
+      "mbid": "",
+      "first_seen": "2026-10-24",
+      "notes": "",
+      "flag": ""
+    },
+    {
+      "id": "seed-2132b5e3656ee8",
+      "artist": "Atena",
+      "title": "Balkan Express (feat. CABAL)",
+      "type": "Single",
+      "date": "2026-10-23",
+      "status": "released",
+      "tier": 3,
+      "plays": 0,
+      "ratings": 0,
+      "average_rating": null,
+      "source": "Curated release roundup",
+      "source_url": "https://boolintunes.com/news/new-music-friday-october-23rd-2026/",
+      "sources": [
+        {
+          "name": "Boolin Tunes",
+          "url": "https://boolintunes.com/news/new-music-friday-october-23rd-2026/"
+        }
+      ],
+      "match": "Watchlist name",
+      "mbid": "",
+      "first_seen": "2026-10-24",
+      "notes": "Listed in the Oct 23 New Music Friday roundup; exact release day may vary.",
+      "flag": ""
+    },
+    {
+      "id": "seed-7fc98bb4022be4",
+      "artist": "Dis Fig",
+      "title": "What to Make of These Mortal Hands",
+      "type": "Album",
+      "date": "2026-10-23",
+      "status": "released",
+      "tier": 3,
+      "plays": 0,
+      "ratings": 0,
+      "average_rating": null,
+      "source": "Curated release roundup",
+      "source_url": "https://boolintunes.com/news/new-music-friday-october-23rd-2026/",
+      "sources": [
+        {
+          "name": "Boolin Tunes",
+          "url": "https://boolintunes.com/news/new-music-friday-october-23rd-2026/"
+        }
+      ],
+      "match": "Watchlist name",
+      "mbid": "",
+      "first_seen": "2026-10-24",
+      "notes": "",
+      "flag": ""
+    },
+    {
+      "id": "seed-8a067f667c091a",
+      "artist": "Earthbong",
+      "title": "Salutations to the Cultivators",
+      "type": "Album",
+      "date": "2026-10-23",
+      "status": "released",
+      "tier": 3,
+      "plays": 0,
+      "ratings": 0,
+      "average_rating": null,
+      "source": "Curated release roundup",
+      "source_url": "https://lambgoat.com/albums/releases/",
+      "sources": [
+        {
+          "name": "Lambgoat",
+          "url": "https://lambgoat.com/albums/releases/"
+        }
+      ],
+      "match": "Watchlist name",
+      "mbid": "",
+      "first_seen": "2026-10-24",
+      "notes": "",
+      "flag": ""
+    },
+    {
+      "id": "seed-c02e8b7a5e16db",
+      "artist": "Less Than Jake",
+      "title": "Overloaded",
+      "type": "Single",
+      "date": "2026-10-23",
+      "status": "released",
+      "tier": 3,
+      "plays": 0,
+      "ratings": 0,
+      "average_rating": null,
+      "source": "Curated release roundup",
+      "source_url": "https://boolintunes.com/news/new-music-friday-october-23rd-2026/",
+      "sources": [
+        {
+          "name": "Boolin Tunes",
+          "url": "https://boolintunes.com/news/new-music-friday-october-23rd-2026/"
+        }
+      ],
+      "match": "Watchlist name",
+      "mbid": "",
+      "first_seen": "2026-10-24",
+      "notes": "Listed in the Oct 23 New Music Friday roundup; exact release day may vary.",
+      "flag": ""
+    },
+    {
+      "id": "seed-89a9fa3dfbaf01",
+      "artist": "Mareux",
+      "title": "Cadillac Casket",
+      "type": "Single",
+      "date": "2026-10-23",
+      "status": "released",
+      "tier": 3,
+      "plays": 0,
+      "ratings": 0,
+      "average_rating": null,
+      "source": "Curated release roundup",
+      "source_url": "https://boolintunes.com/news/new-music-friday-october-23rd-2026/",
+      "sources": [
+        {
+          "name": "Boolin Tunes",
+          "url": "https://boolintunes.com/news/new-music-friday-october-23rd-2026/"
+        }
+      ],
+      "match": "Watchlist name",
+      "mbid": "",
+      "first_seen": "2026-10-24",
+      "notes": "Listed in the Oct 23 New Music Friday roundup; exact release day may vary.",
+      "flag": ""
+    },
+    {
       "id": "seed-8f5505e897f333",
       "artist": "Fit For A King",
       "title": "Lonely God (Deluxe Edition)",
@@ -999,31 +1048,6 @@
         {
           "name": "Lambgoat",
           "url": "https://lambgoat.com/albums/releases/"
-        }
-      ],
-      "match": "Watchlist name",
-      "mbid": "",
-      "first_seen": "2026-10-24",
-      "notes": "",
-      "flag": ""
-    },
-    {
-      "id": "seed-6f3c229d12d495",
-      "artist": "Darkest Hour",
-      "title": "Suffer Divine",
-      "type": "Album",
-      "date": "2026-10-30",
-      "status": "upcoming",
-      "tier": 2,
-      "plays": 12,
-      "ratings": 1,
-      "average_rating": 67.0,
-      "source": "Curated release roundup",
-      "source_url": "https://loudwire.com/2026-hard-rock-metal-album-release-calendar/",
-      "sources": [
-        {
-          "name": "Loudwire",
-          "url": "https://loudwire.com/2026-hard-rock-metal-album-release-calendar/"
         }
       ],
       "match": "Watchlist name",
@@ -1083,56 +1107,6 @@
       "flag": ""
     },
     {
-      "id": "seed-51788aa10d41c6",
-      "artist": "Walls of Jericho",
-      "title": "System Error: Humanity",
-      "type": "Album",
-      "date": "2026-11-13",
-      "status": "upcoming",
-      "tier": 1,
-      "plays": 27,
-      "ratings": 0,
-      "average_rating": null,
-      "source": "Curated release roundup",
-      "source_url": "https://lambgoat.com/albums/releases/",
-      "sources": [
-        {
-          "name": "Lambgoat",
-          "url": "https://lambgoat.com/albums/releases/"
-        }
-      ],
-      "match": "Watchlist name",
-      "mbid": "",
-      "first_seen": "2026-10-24",
-      "notes": "",
-      "flag": ""
-    },
-    {
-      "id": "seed-33624211405edc",
-      "artist": "Afterlife",
-      "title": "The Pain That Shapes Us",
-      "type": "Album",
-      "date": "2026-11-06",
-      "status": "upcoming",
-      "tier": 2,
-      "plays": 8,
-      "ratings": 1,
-      "average_rating": 35.0,
-      "source": "Curated release roundup",
-      "source_url": "https://loudwire.com/2026-hard-rock-metal-album-release-calendar/",
-      "sources": [
-        {
-          "name": "Loudwire",
-          "url": "https://loudwire.com/2026-hard-rock-metal-album-release-calendar/"
-        }
-      ],
-      "match": "Watchlist name",
-      "mbid": "",
-      "first_seen": "2026-10-24",
-      "notes": "",
-      "flag": ""
-    },
-    {
       "id": "seed-b58976b51d4651",
       "artist": "Carnifex",
       "title": "More Than Misery",
@@ -1158,6 +1132,56 @@
       "flag": ""
     },
     {
+      "id": "seed-51788aa10d41c6",
+      "artist": "Walls of Jericho",
+      "title": "System Error: Humanity",
+      "type": "Album",
+      "date": "2026-11-13",
+      "status": "upcoming",
+      "tier": 1,
+      "plays": 27,
+      "ratings": 0,
+      "average_rating": null,
+      "source": "Curated release roundup",
+      "source_url": "https://lambgoat.com/albums/releases/",
+      "sources": [
+        {
+          "name": "Lambgoat",
+          "url": "https://lambgoat.com/albums/releases/"
+        }
+      ],
+      "match": "Watchlist name",
+      "mbid": "",
+      "first_seen": "2026-10-24",
+      "notes": "",
+      "flag": ""
+    },
+    {
+      "id": "seed-6f3c229d12d495",
+      "artist": "Darkest Hour",
+      "title": "Suffer Divine",
+      "type": "Album",
+      "date": "2026-10-30",
+      "status": "upcoming",
+      "tier": 2,
+      "plays": 12,
+      "ratings": 1,
+      "average_rating": 67.0,
+      "source": "Curated release roundup",
+      "source_url": "https://loudwire.com/2026-hard-rock-metal-album-release-calendar/",
+      "sources": [
+        {
+          "name": "Loudwire",
+          "url": "https://loudwire.com/2026-hard-rock-metal-album-release-calendar/"
+        }
+      ],
+      "match": "Watchlist name",
+      "mbid": "",
+      "first_seen": "2026-10-24",
+      "notes": "",
+      "flag": ""
+    },
+    {
       "id": "seed-5394e05f299b13",
       "artist": "Thrown",
       "title": "Unwanted",
@@ -1168,6 +1192,31 @@
       "plays": 16,
       "ratings": 1,
       "average_rating": 30.0,
+      "source": "Curated release roundup",
+      "source_url": "https://loudwire.com/2026-hard-rock-metal-album-release-calendar/",
+      "sources": [
+        {
+          "name": "Loudwire",
+          "url": "https://loudwire.com/2026-hard-rock-metal-album-release-calendar/"
+        }
+      ],
+      "match": "Watchlist name",
+      "mbid": "",
+      "first_seen": "2026-10-24",
+      "notes": "",
+      "flag": ""
+    },
+    {
+      "id": "seed-33624211405edc",
+      "artist": "Afterlife",
+      "title": "The Pain That Shapes Us",
+      "type": "Album",
+      "date": "2026-11-06",
+      "status": "upcoming",
+      "tier": 2,
+      "plays": 8,
+      "ratings": 1,
+      "average_rating": 35.0,
       "source": "Curated release roundup",
       "source_url": "https://loudwire.com/2026-hard-rock-metal-album-release-calendar/",
       "sources": [
