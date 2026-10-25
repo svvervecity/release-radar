@@ -63,6 +63,31 @@ $('refresh').addEventListener('click',()=>refresh(false));display();drawArtists(
 </script>
 </body></html>'''
 html=html.replace('__BOOT__',boot).replace('__ARTISTS__',artists)
+
+# Server-render initial cards so offline iOS/Instagram/Quick Look HTML previews
+# work even when JavaScript is blocked. JS progressively enhances these lists.
+from html import escape as _escape
+def _card(r):
+    artist=_escape(str(r.get('artist','')))
+    title=_escape(str(r.get('title','')))
+    kind=_escape(str(r.get('type','')))
+    date=_escape(str(r.get('date','')))
+    tier=_escape(str(r.get('tier','')))
+    plays=int(r.get('plays') or 0)
+    links=r.get('sources') or []
+    url=next((str(x.get('url')) for x in links if str(x.get('url','')).startswith(('http://','https://'))),str(r.get('source_url','')))
+    link='<a class="source-link" href="'+_escape(url,quote=True)+'" target="_blank" rel="noopener noreferrer">↗ Source</a>' if url.startswith(('http://','https://')) else ''
+    return '<article class="release"><div class="cover" aria-hidden="true"><span>♫</span></div><div class="release-info"><div class="release-artist">'+artist+'</div><div class="release-title">'+title+'</div><div class="release-meta"><span class="type-tag">'+kind+'</span><span class="tier-label">TIER '+tier+' · '+format(plays,',')+' plays</span><span>'+date+'</span></div></div><div class="release-action"><span class="date">'+date+'</span>'+link+'</div></article>'
+_payload=json.loads(boot)
+_meta=_payload['metadata']
+_current=[x for x in _payload['releases'] if _meta['week_start']<=x.get('date','')<=_meta['week_end']]
+_future=[x for x in _payload['releases'] if x.get('date','')>_meta['week_end']]
+html=html.replace('<div id="fresh-list"></div>','<div id="fresh-list">'+''.join(map(_card,_current))+'</div>')
+html=html.replace('<div id="up-list"></div>','<div id="up-list">'+''.join(map(_card,_future))+'</div>')
+_index=json.loads(artists)
+_first=''.join('<div class="artist"><strong>'+_escape(str(a['n']))+'</strong><div class="subline"><span class="rank">TIER '+str(a['t'])+'</span><span>'+format(int(a.get('p',0)),',')+' plays</span></div></div>' for a in _index[:72])
+html=html.replace('<div id="artist-list" class="artist-list"></div>','<div id="artist-list" class="artist-list">'+_first+'</div>')
+
 (p/'index.html').write_text(html,encoding='utf-8')
 (p/'radar.html').write_text(html,encoding='utf-8')
 print('index size',round((p/'index.html').stat().st_size/1024),'KB')
